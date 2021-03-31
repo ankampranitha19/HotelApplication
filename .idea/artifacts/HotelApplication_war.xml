@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HotelApplication:war">
+    <output-path>$PROJECT_DIR$/../HotelApplication/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>HotelApplication</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="HotelApplication-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="HotelApplication:war exploded" />
+    </root>
+  </artifact>
+</component>

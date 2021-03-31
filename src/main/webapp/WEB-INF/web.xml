@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<web-app>
+
+    <servlet>
+        <servlet-name>first</servlet-name>
+        <servlet-class>com.hotel1.RegisterServlet1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>first</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>second</servlet-name>
+    <servlet-class>com.hotel1.LoginServlet</servlet-class>
+    </servlet>
+
+<servlet-mapping>
+<servlet-name>second</servlet-name>
+<url-pattern>/login</url-pattern>
+</servlet-mapping>
+    <servlet>
+        <servlet-name>third</servlet-name>
+        <servlet-class>com.hotel1.RoomDetailsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>third</servlet-name>
+        <url-pattern>/room</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>fourth</servlet-name>
+        <servlet-class>com.hotel1.DeleteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>fourth</servlet-name>
+        <url-pattern>/DeleteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>five</servlet-name>
+        <servlet-class>com.hotel1.UpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>five</servlet-name>
+        <url-pattern>/UpdateServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>
